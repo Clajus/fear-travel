@@ -93,19 +93,17 @@ nav {
     text-align: center;
   }
   
-  .banner h1 {
+  .banner p {
     color: white;
     font-size: 45px;
     margin: 0;
   }
 
-  .container h2 {
+  .container h1 {
     font-size: 35px;
     /* width: 900px; */
     margin: 60px auto;
 }
-
-
 
 .card-white {
 background: white;
