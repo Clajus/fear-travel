@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C A Moi</title>
+<style>
+        body {
+            text-align: center;
+            padding: 50px;
+        }
+
+        #score {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: violet;
+        }
+
+        #clickButton {
+            font-size: 18px;
+            padding: 50px 20px;
+            cursor: pointer;
+            color: rgb(70, 70, 1);
+        }
+
+        body {
+            text-align: center;
+            padding: 50px;
+            color: brown;
+        }
+
+        #timer {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: rgb(54, 82, 82);
+        }
+
+        #startButton, #stopButton, #resetButton {
+            font-size: 18px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 0 10px;
+            color: rgba(0, 0, 255, 0.955);
+}
+
+</style>
+
+<h1>C A Moi</h1>
+<p id="score">Score: <span id="scoreValue">0</span></p>
+<button id="clickButton" onclick="incrementScore()">Cliquez ici</button>
+
+<script>
+       
+ var score = 0;
+
+function incrementScore() {
+score++;
+document.getElementById("scoreValue").textContent = score;
+}
+
+</script>
+
+
+<h1>Chronomètre</h1>
+<p id="timer">0:00</p>
+<button id="startButton" onclick="startTimer()">Démarrer</button>
+<button id="stopButton" onclick="stopTimer()">Arrêter</button>
+<button id="resetButton" onclick="resetTimer()">Réinitialiser</button>
+
+<script>
+var timer;
+var seconds = 0;
+var minutes = 0;
+
+function startTimer() {
+timer = setInterval(updateTimer, 1000);
+}
+
+function stopTimer() {
+clearInterval(timer);
+ }
+
+function resetTimer() {
+clearInterval(timer);
+seconds = 0;
+minutes = 0;
+updateDisplay();
+}
+
+function updateTimer() {
+seconds++;
+if (seconds === 60) {
+seconds = 0;
+minutes++;
+}
+updateDisplay();
+ }
+
+function updateDisplay() {
+var displayMinutes = minutes < 10 ? "0" + minutes : minutes;
+var displaySeconds = seconds < 10 ? "0" + seconds : seconds;
+document.getElementById("timer").textContent = displayMinutes + ":" + displaySeconds;
+}
+</script>
+
+</body>
+</html>
+
