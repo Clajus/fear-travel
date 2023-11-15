@@ -1,9 +1,7 @@
-body{
+.img-rectangle {
+    clip-path: ellipse(33% 50%);
+}
 
-    background-image: url(photo\ pont.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 200px;
-
-    
+.img-carree{
+    clip-path: ellipse(50% 50%);
 }
