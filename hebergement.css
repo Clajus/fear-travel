@@ -1,35 +1,34 @@
 #cabane{
-        background-image: url(CabaneHantee.jpg);
+    background-image: url(CabaneHantee.jpg);
 }
 
 #camping{
-        background-image: url(CampingHorreur.jpg);
+    background-image: url(CampingHorreur.jpg);
 }
 
 #chateau{
-        background-image: url(ChateauHorreur.jpg);
+    background-image: url(ChateauHorreur.jpg);
 }
 
 #enforet{
-        background-image: url(ForetHantee.jpg);
+    background-image: url(ForetHantee.jpg);
 }
 
 #hotel{
-        background-image: url(HorrorHotel.jpg);
+    background-image: url(HorrorHotel.jpg);
 }
 
 #surleau{
-        background-image: url(BateauHorreur.jpg);
+    background-image: url(BateauHorreur.jpg);
 }
 
 #villa{
-        background-image: url(VillaHorreur.jpg);
+    background-image: url(VillaHorreur.jpg);
 }
 
 #vuesurlamer{
-        background-image: url(PlageHantee.jpg);
+    background-image: url(PlageHantee.jpg);
 }
-
 
 .hebergement{
     width: 300px;
@@ -37,3 +36,6 @@
     border-radius: 50%;
     background-size: cover;  
 }
+
+
+
