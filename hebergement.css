@@ -1,7 +1,6 @@
-.nav-container{
-    /* display: block ; */
-    justify-content: space-between;
-}
+/* .nav-container{
+    
+} */
 
 
 #cabane{
@@ -54,7 +53,7 @@
 
 .carousel-image{
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     background-size: cover;
 }
 
