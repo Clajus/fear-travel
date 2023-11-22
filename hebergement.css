@@ -6,35 +6,35 @@
 
 
 #cabane{
-    background-image: url(CabaneHantee.jpg);
+    background-image: url(photosHBGT/CabaneHantee.jpg);
 }
 
 #camping{
-    background-image: url(CampingHorreur.jpg);
+    background-image: url(photosHBGT/CampingHorreur.jpg);
 }
 
 #chateau{
-    background-image: url(ChateauHorreur.jpg);
+    background-image: url(photosHBGT/ChateauHorreur.jpg);
 }
 
 #enforet{
-    background-image: url(ForetHantee.jpg);
+    background-image: url(photosHBGT/ForetHantee.jpg);
 }
 
 #hotel{
-    background-image: url(HorrorHotel.jpg);
+    background-image: url(photosHBGT/HorrorHotel.jpg);
 }
 
 #surleau{
-    background-image: url(BateauHorreur.jpg);
+    background-image: url(photosHBGT/BateauHorreur.jpg);
 }
 
 #villa{
-    background-image: url(VillaHorreur.jpg);
+    background-image: url(photosHBGT/VillaHorreur.jpg);
 }
 
 #vuesurlamer{
-    background-image: url(PlageHantee.jpg);
+    background-image: url(photosHBGT/PlageHantee.jpg);
 }
 
 .hebergement{
@@ -61,31 +61,31 @@
 }
 
 #image1{
-    background-image: url("L\'ileAuxPoupeesMexique.jpg");
+    background-image: url("photosHBGT/L\'ileAuxPoupeesMexique.jpg");
 }
 
 #image2{
-    background-image: url("ForetAokigaharaJapon.jpg") ;
+    background-image: url("photosHBGT/ForetAokigaharaJapon.jpg") ;
 }
 
 #image3{
-    background-image: url("ChateauDeBranRoumanie.jpg");
+    background-image: url("photosHBGT/ChateauDeBranRoumanie.jpg");
 }
 
 #image4{
-    background-image: url("AsileAustralie.jpg");
+    background-image: url("photosHBGT/AsileAustralie.jpg");
 }
 
 #image5{
-    background-image: url("LochNessEcosse.jpg");
+    background-image: url("photosHBGT/LochNessEcosse.jpg");
 }
 
 #image6{
-    background-image: url("PrisonPhiladelphie.jpg");
+    background-image: url("photosHBGT/PrisonPhiladelphie.jpg");
 }
 
 #image7{
-    background-image: url("HellFireClubEire.jpg");
+    background-image: url("photosHBGT/HellFireClubEire.jpg");
 }
 
 .body{    
