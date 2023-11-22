@@ -1,6 +1,8 @@
-/* .nav-container{
+.nav-container{
+    display: flex;
+    justify-items: center;
     
-} */
+}
 
 
 #cabane{
@@ -36,10 +38,11 @@
 }
 
 .hebergement{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    background-size: cover;  
+    background-size: cover;
+    margin: 0 10px;  
 }
 
 #carousel-container{
@@ -85,11 +88,44 @@
     background-image: url("HellFireClubEire.jpg");
 }
 
+.body{    
+    background-position: center;
+    background-image: url(tdm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+}
 
+#typehebergement{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
 
+}
 
-
-
+/* #prev {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    background-color: #ceaaaa;
+    padding: 5px;
+    cursor: pointer;
+    top: 10px;
+    font-weight: bold;
+  }
+  
+  #next {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    background-color: #ceaaaa;
+    padding: 5px;
+    cursor: pointer;
+    top: 10px;
+    font-weight: bold;
+  } */
 
 
 
