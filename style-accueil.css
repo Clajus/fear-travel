@@ -89,7 +89,7 @@ nav {
     justify-content: space-between;
 }
 .banner {
-    background-image: url('background.jpg');
+    background-image: url('photo-accueil/background.jpg');
     background-size: cover;
     background-position: center;
     padding: 150px 0;
