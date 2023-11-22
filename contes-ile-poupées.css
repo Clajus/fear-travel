@@ -11,7 +11,10 @@ nav {
     flex-grow: 1;
     justify-content: space-between;
 }
-
+#logo {
+    width: 56%;
+ }
+ 
 .account {
     /* position: relative;
     display: inline-block; */
@@ -25,7 +28,7 @@ nav {
     background-repeat: no-repeat;
     background-size: 0% 100%;
     transition: background-size .5s, color .5s;
-    /*  */
+   
     margin-right: 4%;
     border-radius: 10%;
     padding-left: 1.75%;
@@ -33,15 +36,15 @@ nav {
     padding-top: 0.5%;
     padding-bottom: 0.5%;
   }
-
-
+ 
+ 
 .account a {
     font-size: 30px;
     font-family: 'Inter';
     font-style: normal;
     color: #fff;
     text-decoration: none;
-    
+   
 }
 .account:hover{
     background-size: 100% 100%;
@@ -67,7 +70,7 @@ nav {
     border: 1px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
+ 
 .navigation-top {
     flex-wrap: 1;
     display: flex;
@@ -84,99 +87,39 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+    }
+
 .banner {
-    background-image: url('background.jpg');
+        background-image: url(Photos/Ile\ des\ poupées\ background.png);
+        background-size: cover;
+        background-position: center;
+        padding: 150px 0;
+        text-align: center;
+      }
+
+.text {
+    background-image: url(Page\ Manuscrit\ 2.png);
     background-size: cover;
     background-position: center;
-    padding: 150px 0;
-    text-align: center; 
-  }
-  
-  .banner h1 {
-    color: white;
-    font-size: 45px;
-    margin: 0;
-  }
+    text-align: justify;
+    color: #3f0605;
+    margin-top: 50px;
+    flex-wrap: 1;
+    display: flex;
+    flex-direction: start;
+    justify-content: end;
+      }
 
-  .container h2 {
-    font-size: 35px;
-    /* width: 900px; */
-    margin: 60px auto;
+.container {
+    background-color: rgb(248, 246, 246);
+    /* background-image: url(Page\ manuscrit.png); */
+    background-size: cover ;
 }
 
-
-
-.card-white {
-background: white;
-box-shadow: 0 0 16px rgba(0,0,0,0.1);
-border-radius: 4px;
-padding: 24px;
-margin: 8px;
-flex-grow: 1;
-}
-
-.card-white img {
-width: 100%;
-height: 180px;
-object-fit: cover;
-border-radius: 4px;
-}
-
-.card-white h3 {
-margin-bottom: 0;
+.nav {
+    flex-direction:column-reverse;
 }
 
 .footer {
-background: #404042;
-color: white;
-padding: 10px 0px;
-}
-
-.cards {
-display: flex;
-flex-wrap: 1;
-grid-template-columns: 1fr 1fr 1fr;
-grid-gap: 16px;
-}
-.cards img:hover {
-    -webkit-transform:scale(1.25); /* Safari et Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* Internet Explorer 9 */
-    -o-transform:scale(1.25); /* Opera */
-    transform:scale(1.25);
-}
-
-
-@media (min-width: 300px) {
-.container {
-    width: 400px;
-}
-.cards {
-    grid-template-columns: 1fr;
-}
-}
-
-@media (min-width: 700px) {
-.container {
-    width: 600px;
-}
-.cards {
-    grid-template-columns: 1fr 1fr;
-}
-}
-
-.container h2 {
-    margin-left: 2%;
-}
-
-@media (min-width: 1000px) {
-.container {
-    /* width: 900px; */
-    margin: auto;
-    width: 100%;
-}
-.cards {
-    grid-template-columns: 1fr 1fr 1fr;
-}
+    flex-direction: column;
 }
