@@ -11,6 +11,9 @@ nav {
     flex-grow: 1;
     justify-content: space-between;
 }
+#logo {
+    width: 56%;
+ }
 
 .account {
     /* position: relative;
@@ -25,7 +28,7 @@ nav {
     background-repeat: no-repeat;
     background-size: 0% 100%;
     transition: background-size .5s, color .5s;
-    /*  */
+   
     margin-right: 4%;
     border-radius: 10%;
     padding-left: 1.75%;
@@ -86,26 +89,24 @@ nav {
     justify-content: space-between;
 }
 .banner {
-    background-image: url('background.jpg');
+    background-image: url('photo-accueil/background.jpg');
     background-size: cover;
     background-position: center;
     padding: 150px 0;
     text-align: center; 
   }
   
-  .banner h1 {
+  .banner p {
     color: white;
     font-size: 45px;
     margin: 0;
   }
 
-  .container h2 {
+  .container h1 {
     font-size: 35px;
     /* width: 900px; */
     margin: 60px auto;
 }
-
-
 
 .card-white {
 background: white;
@@ -139,44 +140,10 @@ flex-wrap: 1;
 grid-template-columns: 1fr 1fr 1fr;
 grid-gap: 16px;
 }
-.cards img:hover {
+.card-white:hover {
     -webkit-transform:scale(1.25); /* Safari et Chrome */
     -moz-transform:scale(1.25); /* Firefox */
     -ms-transform:scale(1.25); /* Internet Explorer 9 */
     -o-transform:scale(1.25); /* Opera */
     transform:scale(1.25);
-}
-
-
-@media (min-width: 300px) {
-.container {
-    width: 400px;
-}
-.cards {
-    grid-template-columns: 1fr;
-}
-}
-
-@media (min-width: 700px) {
-.container {
-    width: 600px;
-}
-.cards {
-    grid-template-columns: 1fr 1fr;
-}
-}
-
-.container h2 {
-    margin-left: 2%;
-}
-
-@media (min-width: 1000px) {
-.container {
-    /* width: 900px; */
-    margin: auto;
-    width: 100%;
-}
-.cards {
-    grid-template-columns: 1fr 1fr 1fr;
-}
 }
