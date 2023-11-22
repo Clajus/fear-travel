@@ -1,0 +1,216 @@
+nav {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, #000000, #000000), #FFFFFF;
+}
+.navigation {
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+#logo {
+    width: 56%;
+ }
+ 
+.account {
+    /* position: relative;
+    display: inline-block; */
+    padding: 15px 70px;
+    border: 2px solid #FF3230;
+    color: #FF3230;
+    font-size: 30px;
+    font-family: arial;
+    background-image: linear-gradient(#FF3230, #FF3230);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+   
+    margin-right: 4%;
+    border-radius: 10%;
+    padding-left: 1.75%;
+    padding-right: 1.75%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+  }
+ 
+ 
+.account a {
+    font-size: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+   
+}
+.account:hover{
+    background-size: 100% 100%;
+    color: #fff;
+}
+.navigation-text {
+    /* border: 1px solid #000000; */
+    margin-left: 2%;
+    margin-right: 5%;
+    font-size: 30px;
+}
+.navigation-text a {
+    color: #EAE2E2;
+    font-family: 'Inter';
+    font-style: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    text-decoration: none;
+}
+.navigation-text a:hover {
+    font-size: 35px;
+    mix-blend-mode: hard-light;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+ 
+.navigation-top {
+    flex-wrap: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    justify-content: end;
+}
+.navigation-middle {
+    flex-wrap: 1;
+    margin: 6%;
+}
+.navigation-bottom {
+    flex-wrap: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+
+.banner {
+    background-image: url(Photos/Forêt\ brouillard.png);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+  }
+
+.banner h2 {
+    color: red;
+    font-size: 35px;
+    margin: 0;
+    text-align:center;
+  }
+
+  .col-center {
+    margin: 0 auto;
+    float: none !important;
+}
+
+.carousel {
+    margin: 30px auto 60px;
+    padding: 0 80px;
+}
+
+.carousel .item {
+    text-align: center;
+    overflow: hidden;
+}
+
+.carousel .item h4 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.carousel .item img {
+    max-width: 100%;
+    max-height: 1%;
+    display: inline-block
+}
+
+.carousel .item .btn {
+    border-radius: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background: #d01104;
+    padding: 6px 15px;
+    margin-top: 5px;
+}
+
+.carousel .item .btn:hover {
+    background: #077a12;
+}
+
+.carousel .item .btn i {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.carousel .thumb-wrapper {
+    margin: 5px;
+    text-align: left;
+    background: #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.carousel .thumb-content {
+    padding: 15px;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.carousel .carousel-control {
+    height: 44px;
+    width: 44px;
+    background: none;
+    margin: auto 0;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+}
+
+.carousel .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgba(85, 3, 3, 0.8);
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.carousel .carousel-control.left i {
+    margin-left: -10px;
+}
+
+.carousel .carousel-control.right i {
+    margin-right: -3px;
+}
+
+.carousel .carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 4px;
+    border-color: transparent;
+}
+
+.carousel-indicators li {
+    background: #ababab;
+}
+
+.carousel-indicators li.active {
+    background: #555;
+}
+
