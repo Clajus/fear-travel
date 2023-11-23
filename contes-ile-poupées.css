@@ -90,36 +90,70 @@ nav {
     }
 
 .banner {
-        background-image: url(Photos/Ile\ des\ poupées\ background.png);
+        background-image: url(Photos-Contes/Ile\ des\ poupées\ background.png);
+        background-color: #EAE2E2;
         background-size: cover;
         background-position: center;
         padding: 150px 0;
         text-align: center;
       }
+      
 
 .text {
-    background-image: url(Page\ Manuscrit\ 2.png);
+    background-image: url(Photos-Contes/page\ manuscrit\ 3.jpg);
     background-size: cover;
-    background-position: center;
-    text-align: justify;
-    color: #3f0605;
-    margin-top: 50px;
+    text-align: center;
+    color: #840b08;
+    /* margin-top: 20px; */
+    margin-right: 50px;
     flex-wrap: 1;
     display: flex;
     flex-direction: start;
-    justify-content: end;
-      }
+    justify-content: center;
+    font-style: oblique;
+      }      
+      
+/* .container-fluid {
+    padding-top: 30px;
+        } */
 
-.container {
-    background-color: rgb(248, 246, 246);
-    /* background-image: url(Page\ manuscrit.png); */
-    background-size: cover ;
+.row {
+    background-color: #EAE2E2;   
 }
+
+.card {
+    background-color: #EAE2E2;
+    margin-right: 50px;
+    border: none;
+    border-style: outset;
+  
+}
+
+.card-header {
+    color: #840b08;
+}
+
 
 .nav {
     flex-direction:column-reverse;
 }
 
 .footer {
-    flex-direction: column;
+    background-color: #000000;
+    background-size: cover;
+    margin: none;
+    text-align: center;
+    color: red
 }
+
+.reservation{
+    text-decoration: none;
+}
+
+.principal{
+    margin-top: 50px;
+    border: outset;
+    margin: none;
+}
+
+
