@@ -195,15 +195,6 @@ nav {
     overflow-x: hidden;
 }
 
-#typehbgtt {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    padding: 20px;
-    position: relative;
-}
-
 #menuhbgt {
     position: relative;
     width: 100vw;
