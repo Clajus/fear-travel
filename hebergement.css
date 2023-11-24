@@ -100,11 +100,14 @@ nav {
 .nav-container {
     display: flex;
     justify-items: center;
+    font-family: 'inter';
+    font-style: normal;
 
 }
 
 #cabane {
     background-image: url(photosHBGT/CabaneHantee.jpg);
+    
 }
 
 #camping {
@@ -198,7 +201,6 @@ nav {
 #menuhbgt {
     position: relative;
     width: 100vw;
-
 }
 
 ul {
@@ -223,7 +225,7 @@ li {
     width: 99vw;
     bottom: 60%;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
 
@@ -260,12 +262,54 @@ li {
 }
 
 #lesmieuxnotes {
+    font-family: 'inter';    
+    font-style: normal;
     text-align: center;
     color: white;
 }
 
 #notesavis {
+    font-family: 'inter';
+    font-style: normal;
     text-align: center;
     color: white;
 }
 
+.notation {
+    display: flex;
+    justify-content: center;
+}
+
+.C2etoiles {
+    color: red;
+    background: black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.C2etoiles:hover {
+    background: silver;
+    /* color: black; */
+}
+
+.C2etoiles div {
+    display: inline-block;
+    padding: 30px;
+}
+
+.C2etoiles div::after {
+    content: "\002620";
+    color: red;
+}
+
+.footer {
+    background-color: #000000;
+    background-size: cover;
+    margin: none;
+    text-align: center;
+    color: red;
+}
+
+.FlecheRouge{
+    width: 25px;
+}
