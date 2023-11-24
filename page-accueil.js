@@ -106,5 +106,15 @@ function decrementRoomInput() {
 roomsIncrement.addEventListener("click", incrementRoomInput);
 roomsDecrement.addEventListener("click", decrementRoomInput);
 
+// renvoyer vers la page de réservation
+const destination = document.getElementById("destination");
+const reservation =  document.getElementById("btn-reservation");
+reservation.addEventListener("click",()=>{
+    window.location.href = `reservation.html?destination=${destination.value}`
+})
+
+
+
+
 
 
