@@ -214,3 +214,11 @@ nav {
     background: #555;
 }
 
+.footer {
+    background-color: #000000;
+    background-size: cover;
+    margin: none;
+    text-align: center;
+    color: red
+}
+

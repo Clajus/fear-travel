@@ -1,0 +1,157 @@
+nav {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, #000000, #000000), #FFFFFF;
+}
+.navigation {
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+#logo {
+    width: 56%;
+ }
+ 
+.account {
+    /* position: relative;
+    display: inline-block; */
+    padding: 15px 70px;
+    border: 2px solid #FF3230;
+    color: #FF3230;
+    font-size: 30px;
+    font-family: arial;
+    background-image: linear-gradient(#FF3230, #FF3230);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+   
+    margin-right: 4%;
+    border-radius: 10%;
+    padding-left: 1.75%;
+    padding-right: 1.75%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+  }
+ 
+ 
+.account a {
+    font-size: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+   
+}
+.account:hover{
+    background-size: 100% 100%;
+    color: #fff;
+}
+.navigation-text {
+    /* border: 1px solid #000000; */
+    margin-left: 2%;
+    margin-right: 5%;
+    font-size: 30px;
+}
+.navigation-text a {
+    color: #EAE2E2;
+    font-family: 'Inter';
+    font-style: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    text-decoration: none;
+}
+.navigation-text a:hover {
+    font-size: 35px;
+    mix-blend-mode: hard-light;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+ 
+.navigation-top {
+    flex-wrap: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    justify-content: end;
+}
+.navigation-middle {
+    flex-wrap: 1;
+    margin: 6%;
+}
+.navigation-bottom {
+    flex-wrap: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.banner {
+        background-image: url(Photos-Contes/Ile\ des\ poupées\ background.png);
+        background-color: #EAE2E2;
+        background-size: cover;
+        background-position: center;
+        padding: 150px 0;
+        text-align: center;
+      }
+      
+
+.text {
+    background-image: url(Photos-Contes/page\ manuscrit\ 3.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #840b08;
+    /* margin-top: 20px; */
+    margin-right: 50px;
+    flex-wrap: 1;
+    display: flex;
+    flex-direction: start;
+    justify-content: center;
+    font-style: oblique;
+      }      
+      
+/* .container-fluid {
+    padding-top: 30px;
+        } */
+
+.row {
+    background-color: #EAE2E2;   
+}
+
+.card {
+    background-color: #EAE2E2;
+    margin-right: 50px;
+    border: none;
+    border-style: outset;
+  
+}
+
+.card-header {
+    color: #840b08;
+}
+
+
+.nav {
+    flex-direction:column-reverse;
+}
+
+.footer {
+    background-color: #000000;
+    background-size: cover;
+    margin: none;
+    text-align: center;
+    color: red
+}
+
+.reservation{
+    text-decoration: none;
+}
+
+.principal{
+    margin-top: 50px;
+    border: outset;
+    margin: none;
+}
