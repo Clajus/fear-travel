@@ -100,11 +100,14 @@ nav {
 .nav-container {
     display: flex;
     justify-items: center;
+    font-family: 'inter';
+    font-style: normal;
 
 }
 
 #cabane {
     background-image: url(photosHBGT/CabaneHantee.jpg);
+    
 }
 
 #camping {
@@ -195,19 +198,9 @@ nav {
     overflow-x: hidden;
 }
 
-#typehbgtt {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    padding: 20px;
-    position: relative;
-}
-
 #menuhbgt {
     position: relative;
     width: 100vw;
-
 }
 
 ul {
@@ -229,7 +222,7 @@ li {
 
 #prevnext {
     position: relative;
-    width: 98vw;
+    width: 99vw;
     bottom: 60%;
     display: flex;
     justify-content: space-between;
@@ -240,30 +233,83 @@ li {
     display: inline-block;
     position: absolute;
     left: 0;
-    background-color: #ceaaaa;
-    padding: 5px;
+    /* background-color: #ceaaaa; */
+    padding: 20px;
     cursor: pointer;
     top: 10px;
     font-weight: bold;
+    background-image: url("photosHBGT/MainGauche.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
 }
 
 #next {
     position: absolute;
     right: 0;
     display: inline-block;
-    background-color: #ceaaaa;
-    padding: 5px;
+    /* background-color: #ceaaaa; */
+    padding: 20px;
     cursor: pointer;
     top: 10px;
     font-weight: bold;
+    background-image: url("photosHBGT/MainDroite.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
 }
 
 #lesmieuxnotes {
+    font-family: 'inter';    
+    font-style: normal;
     text-align: center;
     color: white;
 }
 
 #notesavis {
+    font-family: 'inter';
+    font-style: normal;
     text-align: center;
     color: white;
+}
+
+.notation {
+    display: flex;
+    justify-content: center;
+}
+
+.C2etoiles {
+    color: red;
+    background: black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.C2etoiles:hover {
+    background: silver;
+    /* color: black; */
+}
+
+.C2etoiles div {
+    display: inline-block;
+    padding: 30px;
+}
+
+.C2etoiles div::after {
+    content: "\002620";
+    color: red;
+}
+
+.footer {
+    background-color: #000000;
+    background-size: cover;
+    margin: none;
+    text-align: center;
+    color: red;
+}
+
+.FlecheRouge{
+    width: 25px;
 }

@@ -16,8 +16,6 @@ nav {
  }
 
 .account {
-    /* position: relative;
-    display: inline-block; */
     padding: 15px 70px;
     border: 2px solid #FF3230;
     color: #FF3230;
@@ -146,4 +144,20 @@ grid-gap: 16px;
     -ms-transform:scale(1.25); /* Internet Explorer 9 */
     -o-transform:scale(1.25); /* Opera */
     transform:scale(1.25);
+}
+
+#chambres{
+    position: relative;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.form-chambres{
+    display: none;
+    position: absolute;
+    background: white;
+    border: #FF3230 solid 2px;
 }
