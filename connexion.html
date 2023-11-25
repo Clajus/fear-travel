@@ -11,12 +11,13 @@
 
 <body>
 
+
     <nav>
         <div class="logo">
           <a href="page-accueil.html">
             <img id="logo" src="photo-accueil/logo.png" alt="">
           </a>
-        </div>
+        </div> 
         <div class="navigation">
           <div class="navigation-top">
             <div class="navigation-text">
@@ -26,8 +27,7 @@
                 <a href="inscription.html">S'inscrire</a>
             </div>
             <div class="account">
-             <a href="connexion.html">Se connecter</a>
-
+                <a href="connexion.html">Se connecter</a>
             </div>
           </div>
           <div class="navigation-bottom">
@@ -46,40 +46,30 @@
         </div>
       </nav>
   
-    
+
+
     <!-- <a href="index.html">Accueil</a>
     <a href="connexion.html">Connexion</a>
     <a href="inscription.html">Inscription</a> -->
 
+
     <div id="div-form">
         <form id="form">
             <div id="input-line1">
-                <p>Nom</p>
-                <input type="text" name="" id="nom">
+                <p>email</p>
+                <input type="email" name="" id="connexion-email">
             </div>
             <div id="input-line2">
-                <p>Prenom</p>
-                <input type="text" name="" id="prenom">
+                <p>mot de passe</p>
+                <input type="password" name="" id="connexion-password">
             </div>
             <div id="input-line3">
-                <p>email</p>
-                <input type="email" name="" id="email">
+                <input type="button" value="Connexion" id="connexion-btn">
             </div>
-            <div id="input-line4">
-                <p>mot de passe</p>
-                <input type="password" name="" id="password">
-            </div>
-            <div id="input-line5">
-                <p>confirmer mot de passe</p>
-                <input type="password" name="" id="password-confirm">
-            </div>
-            <div id="input-line6">
-                <input type="button" value="Envoyer" id="submit-btn">
-            </div>
-            <a href="connexion.html">déjà un compte ?</a>
+            <a href="inscription.html">pas encore de compte ?</a>
         </form>
     </div>
-    <script src="inscription.js"></script>
+    <script src="connexion.js"></script>
 </body>
 
 </html>
