@@ -144,6 +144,7 @@ nav {
     border-radius: 50%;
     background-size: cover;
     margin: 0 10px;
+    background-image: scale(3), translate(30px);
 }
 
 #carousel-container {
@@ -163,6 +164,7 @@ nav {
 
 #image1 {
     background-image: url("photosHBGT/L\'ileAuxPoupeesMexique.jpg");
+    
 }
 
 #image2 {
@@ -308,8 +310,4 @@ li {
     margin: none;
     text-align: center;
     color: red;
-}
-
-.FlecheRouge{
-    width: 25px;
 }
