@@ -96,19 +96,26 @@ nav {
 }
 
 
+body {
+    background-image:url("FondEcranBrouillard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
 
 .reservation-form {
-
-
     width: 300px;
-
-
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
+    box-shadow: 0 0 30px red;
+    position: relative; /* Définir la position relative */
+    top: -415px; /* Déplacer de 50 pixels vers le bas */
+    left: 1330px; /* Déplacer de 50 pixels vers la droite */
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
 
-
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 form {
@@ -123,18 +130,95 @@ label {
 input {
     margin-bottom: 16px;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid red;
     border-radius: 4px;
 }
 
 input[type="submit"] {
-    background-color: #4caf50;
-    color: white;
+    background-color: red;
+    color:white;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-
-
-    background-color: #45a049;
+    background-color: black;
 }
+
+
+ #nom-lieu {
+    position: relative;
+    left: 100px; /* ajustez la valeur selon vos besoins */
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: red;
+    
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px; /* Ajoute de l'espace de chaque côté de la ligne d'images */
+    overflow: hidden
+
+}
+
+
+.image-container img {
+    max-width: 30%; /* Ajustez la largeur des images selon vos besoins */
+    /* height: auto; */
+    border: 1px solid red; /* Ajoutez une bordure pour un meilleur rendu */
+    border-radius: 8px; /* Ajoutez un peu de bordure arrondie */
+}
+
+.image-zoom:hover {
+    transform: scale(1.2);
+}
+
+.nom-logement {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    left: 100px;
+    
+}
+
+.nom-logement h4 {
+    margin-right: 20px; /* Ajoute de l'espace entre le titre et l'image */
+}
+
+.nom-logement img {
+    border: 5px solid red;
+    border-radius: 80px;
+}
+
+
+.Attractions {
+    width: 900px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 30px red;
+    position: relative; 
+    top: 100px; 
+    left: 200px; 
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+
+
+}
+
+.blabla {
+    width: 900px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 30px red;
+    position: relative; 
+    top: 100px; 
+    left: 200px; 
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
+

@@ -108,9 +108,33 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 570px;
     border: 3px solid black;
     padding: 10px;
     margin: 14px 0;
+    border: 1px solid red;
+    border-radius: 8px;
+    box-shadow: 0 0 30px red;
+    position: relative; 
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+
+
+#submit-btn,#connexion-btn {
+    margin: 20% 0 20% 0;
+    color: white;
+    background-color:  red;
+    border: 1px solid red;
+    box-shadow: 0 0 30px red;
+    font-size: 22px
+}
+
+p {
+font-size: 22px;
 }
