@@ -214,11 +214,32 @@ nav {
     background: #555;
 }
 
+
 .footer {
-    background-color: #000000;
-    background-size: cover;
-    margin: none;
+    background-color: black;
+    margin-top: 50px;
     text-align: center;
-    color: red
+    text-decoration: none;
+    color: red;
+    padding: 15px;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: flex-end;
+    
 }
+
+.a:link{
+    text-decoration: none;
+    color: red;
+}
+
+.a:visited{
+    text-decoration: none;
+    color: red;
+}
+
+
+
+
+
 
