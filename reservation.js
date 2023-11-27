@@ -27,10 +27,10 @@ const listeDestinations = [
         img1 : "photo-ile-des-poupées/cabane-ile-des-poupées.jpg",
         img2 : "photo-ile-des-poupées/interieur-cabane2.jpg",
         img3 : "photo-ile-des-poupées/iledespoupées.jpg",
-        nomLogement : "Cabanes au bord du lac - chez Annabelle - 110 €/ nuit",
-        imageHote : "photo-ile -des-poupées/anabelle.png",
-        descriptionLogement : "Cabane en bordure de Lac Détente, Calme, Nature, Décompression, Frissons <br> Terrasse suspendue <br> Poêle à bois avec Bois 100% <br> Draps et couette à disposition",
-        attraction : "Paintball <br> Pédalo "
+        nomLogement : "Cabane au bord du lac - Chez Annabelle - Mexico, Méxique",
+        imageHote : "photo-ile-des-poupées/anabelle.png",
+        descriptionLogement : "110€ la nuit <br> Cabane en bordure de Lac <br> Détente, Calme, Nature, Décompression, Frissons <br> Terrasse suspendue <br> Poêle à bois avec Bois 100% <br> Draps et couette à disposition",
+        attraction : "Paintball <br> Pédalo, Paddle "
     },
     {
         id : "suicides",
@@ -81,16 +81,21 @@ const img2 = document.querySelector("#image2");
 const img3 = document.querySelector("#image3");
 
 
-img1.src = listeDestinations.img1;
-img2.src = listeDestinations.img2;
-img3.src = listeDestinations.img3;
+img1.src = destinationChoisie.img1;
+img2.src = destinationChoisie.img2;
+img3.src = destinationChoisie.img3;
+
+const imgHote = document.querySelector("#image-hote");
+imgHote.src = destinationChoisie.imageHote;
+
 
 const nomLogement = document.getElementById("nom-logement");
-const descriptionLogement = document.querySelector("Description p");
-const attraction = document.querySelector("Attractions p");
+const descriptionLogement = document.querySelector(".Description p");
+const attractionTitre = document.querySelector(".Attractions h4");
+const attractionMessage = document.querySelector(".Attractions p");
 
-nomLogement?.textContent = listeDestinations.nomLogement;
-descriptionLogement?.innerHTML = listeDestinations.descriptionLogement;
-attraction?.innerHTML = listeDestinations.attraction;
-
+nomLogement.textContent = destinationChoisie.nomLogement;
+descriptionLogement.innerHTML = destinationChoisie.descriptionLogement;
+attractionTitre.textContent= "Ce que propose le logement";
+attractionMessage.innerHTML = destinationChoisie.attraction;
 
