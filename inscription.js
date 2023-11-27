@@ -26,6 +26,7 @@ const inputPasswordConfirm = document.getElementById("password-confirm");
 const submitBtn = document.getElementById("submit-btn");
 
 submitBtn.addEventListener("click", (e) => {
+    localStorage.clear();
     e.preventDefault();
     if(inputPassword.value === inputPasswordConfirm.value){
         dataClient.push(
@@ -49,9 +50,9 @@ submitBtn.addEventListener("click", (e) => {
 *                       Connexion
  **********************************************************/
 
-const btnTest = document.getElementById("btn-test");
+// const btnTest = document.getElementById("btn-test");
 
-btnTest.addEventListener("click",()=> {
-    console.log("data",dataClient);
-})
+// btnTest.addEventListener("click",()=> {
+//     console.log("data",dataClient);
+// })
 
