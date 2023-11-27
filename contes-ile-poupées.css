@@ -90,8 +90,7 @@ nav {
     }
 
 .banner {
-        background-image: url(Photos-Contes/Ile\ des\ poupées\ background.png);
-        background-color: #EAE2E2;
+        background-image: url(Photos-Contes/Forêt\ brouillard\ 2.jpg);
         background-size: cover;
         background-position: center;
         padding: 150px 0;
@@ -104,20 +103,17 @@ nav {
     background-size: cover;
     text-align: center;
     color: #840b08;
-    /* margin-top: 20px; */
     margin-right: 50px;
     flex-wrap: 1;
     display: flex;
     flex-direction: start;
     justify-content: center;
     font-style: oblique;
+    border-radius: 5px;
       }      
       
-/* .container-fluid {
-    padding-top: 30px;
-        } */
 
-.row {
+#contes {
     background-color: #EAE2E2;   
 }
 
@@ -134,26 +130,25 @@ nav {
 }
 
 
-.nav {
+/* .nav {
     flex-direction:column-reverse;
-}
+} */
 
 .footer {
-    background-color: #000000;
-    background-size: cover;
-    margin: none;
-    text-align: center;
-    color: red
-}
+        background-color: black;
+        margin-top: 50px;
+        text-align: center;
+        color: red;
+        padding: 15px;
+        font-weight: bold;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
 
-.reservation{
+/* .reservation{
     text-decoration: none;
-}
+} */
 
-.principal{
-    margin-top: 50px;
-    border: outset;
-    margin: none;
-}
+
 
 
