@@ -35,11 +35,11 @@ const listeDestinations = [
     {
         id : "suicides",
         nom : "La forêt des suicides",
-        img1 : "",
-        img2 : "",
-        img3 : "",
-        nomLogement : "",
-        imageHote : "",
+        img1 : "photo-foret-des-suicides/foret-des-suicides.jpg",
+        img2 : "photo-foret-des-suicides/cabane-arbre-foret.jpg",
+        img3 : "photo-foret-des-suicides/interieur-ile-des-poupées.jpg",
+        nomLogement : "Cabane dans les arbres - Chez Sylvebarbe -  Narusawa, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0300, Japon",
+        imageHote : "photo-foret-des-suicides/silvebarbe.jpg",
         descriptionLogement : "",
         attraction : ""
     },
