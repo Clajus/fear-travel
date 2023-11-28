@@ -5,9 +5,9 @@ const listeDestinations = [
         img1 : "",
         img2 : "",
         img3 : "",
-        nomLogement : "",
+        nomLogement : "Chambre dans le château -  Chez Vlad - Bran, Roumanie",
         imageHote : "",
-        descriptionLogement : "",
+        descriptionLogement : "200€/nuit",
         attraction : ""
     },
     {
@@ -16,7 +16,7 @@ const listeDestinations = [
         img1 : "",
         img2 : "",
         img3 : "",
-        nomLogement : "",
+        nomLogement : "Péniche sur le lac - Chez Denver - Inverness, Ecosse",
         imageHote : "",
         descriptionLogement : "",
         attraction : ""
@@ -27,21 +27,21 @@ const listeDestinations = [
         img1 : "photo-ile-des-poupées/cabane-ile-des-poupées.jpg",
         img2 : "photo-ile-des-poupées/interieur-cabane2.jpg",
         img3 : "photo-ile-des-poupées/iledespoupées.jpg",
-        nomLogement : "Cabane au bord du lac - Chez Annabelle - Mexico, Méxique",
+        nomLogement : "Cabane au bord du lac - Chez Annabelle - Mexico, Méxique ",
         imageHote : "photo-ile-des-poupées/anabelle.png",
-        descriptionLogement : "110€ la nuit <br> Cabane en bordure de Lac <br> Détente, Calme, Nature, Décompression, Frissons <br> Terrasse suspendue <br> Poêle à bois avec Bois 100% <br> Draps et couette à disposition",
+        descriptionLogement : "110€ la nuit <br> Cabane en bordure de Lac <br> Détente, Calme, Nature, Frissons <br> Terrasse suspendue <br> Poêle à bois avec Bois 100% <br> Draps et couette à disposition",
         attraction : "Paintball <br> Pédalo, Paddle "
     },
     {
         id : "suicides",
         nom : "La forêt des suicides",
-        img1 : "",
-        img2 : "",
-        img3 : "",
-        nomLogement : "",
-        imageHote : "",
-        descriptionLogement : "",
-        attraction : ""
+        img1 : "photo-foret-des-suicides/foret-des-suicides.jpg",
+        img2 : "photo-foret-des-suicides/cabane-arbre-foret.jpg",
+        img3 : "photo-foret-des-suicides/interieur-ile-des-poupées.jpg",
+        nomLogement : "Cabane dans les arbres - Chez Sylvebarbe - Narusawa, Japon",
+        imageHote : "photo-foret-des-suicides/silvebarbe.jpg",
+        descriptionLogement : "160€ la nuit <br> Cabane suspendue dans la forêt <br> Détente, Calme, Nature, Dé(com)pression",
+        attraction : "Accrobranche <br> tire à l'arc"
     },
     {
         id : "pénitencier",
@@ -49,8 +49,8 @@ const listeDestinations = [
         img1 : "",
         img2 : "",
         img3 : "",
-        nomLogement : "",
-        imageHote : "",
+        nomLogement : "Cellule au coeur de la prison - Chez - Philadelphie, Etats-Unis",
+        imageHote : "", 
         descriptionLogement : "",
         attraction : ""
     },
@@ -60,7 +60,7 @@ const listeDestinations = [
         img1 : "",
         img2 : "",
         img3 : "",
-        nomLogement : "",
+        nomLogement : "Maison d'hôtes - chez Bill - Dublin, Irlande",
         imageHote : "",
         descriptionLogement : "",
         attraction : ""

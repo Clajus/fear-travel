@@ -62,44 +62,45 @@
     <img class="image-zoom" src="" alt="cabane 2" width="450" height="300" id="image2">
     <img class="image-zoom" src="" alt="ile des poupées 2" width="450" height="300" id="image3">
   </div>
-
-<div class="blabla">
-  <div class="nom-logement">
-    <h4 id="nom-logement"></h4>
-    <img id="image-hote" src="" alt="annabelle" width="150" height="150">
-  </div>
-  <div class="Description">
-    <p> </p>
-  </div>
-</div>
-
-  <div class="Attractions">
-    <h4> </h4>
-    <p> </p>
+ <div class="descriptionReservation">
+  <div style="flex-direction: row;">
+    <div class="blabla">
+      <div class="nom-logement">
+        <h4 id="nom-logement"></h4>
+        <img id="image-hote" src="" alt="annabelle" width="150" height="150">
+      </div>
+      <div class="Description">
+        <p> </p>
+      </div>
+    </div>
+    <div class="Attractions">
+      <h4> </h4>
+      <p> </p>
+    </div>
   </div>
 
   <div class="reservation-form">
+      <h2>Réservation</h2>
+      
+      <form>
+   
+         <label for="date-arrivee">Date d'arrivée:</label>
+   
+         <input type="date" id="date-arrivee" name="date-arrivee" required>
+   
+         <label for="date-depart">Date de départ:</label>
+         
+         <input type="date" id="date-depart" name="date-depart" required>
+         
+         <label for="nb-voyageurs">Nombre de voyageurs:</label>
+         
+         <input type="number" id="nb-voyageurs" name="nb-voyageurs" min="1" required>
+         
+         <input type="submit" value="Réserver">
+        </form>   
+  </div>
+ </div> 
 
-    <h2>Réservation</h2>
-
-    <form>
-
-      <label for="date-arrivee">Date d'arrivée:</label>
-
-      <input type="date" id="date-arrivee" name="date-arrivee" required>
-
-      <label for="date-depart">Date de départ:</label>
-
-      <input type="date" id="date-depart" name="date-depart" required>
-
-      <label for="nb-voyageurs">Nombre de voyageurs:</label>
-
-      <input type="number" id="nb-voyageurs" name="nb-voyageurs" min="1" required>
-
-      <input type="submit" value="Réserver">
-    </form>
-
-  </div>>
 
 
   <script src="reservation.js"> </script>

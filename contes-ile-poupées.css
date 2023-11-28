@@ -143,6 +143,8 @@ nav {
         font-weight: bold;
         justify-content: space-around;
         align-items: flex-end;
+        text-decoration: none;
+        
     }
 
 /* .reservation{
