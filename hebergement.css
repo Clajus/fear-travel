@@ -153,7 +153,7 @@ nav {
 }
 
 #carouselExampleCaptions {
-    width: 75%;
+    width: 75%;   
 }
 
 .carousel-image {
@@ -164,29 +164,29 @@ nav {
 
 #image1 {
     background-image: url("photosHBGT/L\'ileAuxPoupeesMexique.jpg");    
-}
+} 
 
 #image2 {
     background-image: url("photosHBGT/ForetAokigaharaJapon.jpg");
 }
 
 #image3 {
-    background-image: url("photosHBGT/ChateauDeBranRoumanie.jpg");
+    background-image: url("photosHBGT/ChateauDeBranRoumanie.jpg");    
 }
+
+/* #image4 {
+    background-image: url("photosHBGT/AsileAustralie.jpg");
+} */
 
 #image4 {
-    background-image: url("photosHBGT/AsileAustralie.jpg");
-}
-
-#image5 {
     background-image: url("photosHBGT/LochNessEcosse.jpg");
 }
 
-#image6 {
+#image5 {
     background-image: url("photosHBGT/PrisonPhiladelphie.jpg");
 }
 
-#image7 {
+#image6 {
     background-image: url("photosHBGT/HellFireClubEire.jpg");
 }
 
