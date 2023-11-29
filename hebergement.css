@@ -95,6 +95,10 @@ nav {
     transform: scale(1.2);
 }
 
+#hautdepage{
+    margin-bottom: auto;
+}
+
 .nav-container {
     display: flex;
     justify-items: center;
