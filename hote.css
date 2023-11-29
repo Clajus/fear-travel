@@ -95,33 +95,6 @@ nav {
     justify-content: space-between;
 }
 
-
-#informations {
-    left: 100px;
-    margin-bottom: 20px;
-    margin-top: 50px;
-    color: red;
-    margin-left: 10%;
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#localisation {
-    left: 100px;
-    margin-bottom: 30px;
-    color: rgb(18, 8, 8);
-    margin-left: 10%;
-    text-align: center;
-
-}
-
-#comment {
-    color:#FF3230;
-    text-align: center;
-}
-
-
-
 .card {
     border-radius: 8%;
     margin-bottom: 20px;
@@ -138,29 +111,6 @@ nav {
     border-radius: 10%
 }
 
-.verification {
-    margin-top: 20px;
-    margin-left: 20px;
-    text-decoration: underline;
-    border-color: #FF3230;
-    border-top-right-radius: solid;
-}
-
-#part2 {
-    text-align : center;
-    color: red;
-    flex-direction: row;
-    border-top-right-radius: solid 20px;
-      
-}
-
-.text {
-    color: black;
-}
-
-/* .body {
-    background-image: url(fear-travel/photo-accueil/background.jpg);
-} */
 
 .container-fluid {
     background-image: url(fear-travel/photo-accueil/background.jpg);
@@ -189,11 +139,79 @@ footer {
 }
 
 
-
-
 #part1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #part2{
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    padding-right: none;
+}
+.verification {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: underline;
+    border-color: #FF3230;
+    border-top-right-radius: solid;
+}
+
+#part2 {
+    text-align : start;
+    color: black;
+    flex-direction: row;
+    border-top-right-radius: solid 20px;
+    padding-left: 10px;
+    text-decoration: none;
+    display: flex;
+
+
+      
+}
+
+.text {
+    color: black;
+}
+
+
+#informations {
+    left: 100px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: red;
+    margin-left: 10%;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#localisation {
+    left: 100px;
+    margin-bottom: 30px;
+    color: rgb(18, 8, 8);
+    margin-left: 10%;
+    text-align: center;
+
+}
+
+#comment {
+    color:#FF3230;
+    text-align: center;
+    padding: center ;
+}
+
+body {
+    flex: 100vh;
+    background-color:#EAE2E2;
+}
+
+#comment2 {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 100px;
+}
+
+.col {
+border: 2px solid grey;
+border-style: inset;
+border-radius: 30px;
+
+
 }
