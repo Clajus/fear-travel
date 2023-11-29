@@ -155,12 +155,15 @@ footer {
 }
 
 #part2 {
-    text-align : center;
+    text-align : start;
     color: black;
     flex-direction: row;
     border-top-right-radius: solid 20px;
-    padding-left: 5px;
+    padding-left: 10px;
     text-decoration: none;
+    display: flex;
+
+
       
 }
 
