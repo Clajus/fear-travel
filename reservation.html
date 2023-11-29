@@ -7,15 +7,17 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <!-- jQuery
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> -->
 
   <!-- Bootstrap Datepicker CSS -->
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
   <link href="page-accueil.css" rel="stylesheet">
   <link rel="stylesheet" href="reservation.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="footer.css">
+  <link rel="icon" href="photo-accueil/logo.png">
+  <title>Destination</title>
 </head>
 
 <body>
@@ -91,17 +93,29 @@
          <label for="date-depart">Date de départ:</label>
          
          <input type="date" id="date-depart" name="date-depart" required>
-         
+
          <label for="nb-voyageurs">Nombre de voyageurs:</label>
-         
+
          <input type="number" id="nb-voyageurs" name="nb-voyageurs" min="1" required>
-         
+
          <input type="submit" value="Réserver">
+
+         <input type="hidden">  
         </form>   
   </div>
  </div> 
 
-
+ <footer>
+  <div class="footer-links">
+      <a href="#">À Propos</a>
+      <a href="#">Mentions Légales</a>
+      <a href="#">Politiques de Confidentialité</a>
+      <a href="footer-nous-contacter.html">Nous Contacter</a>
+  </div>
+  <div class="social-links">
+      <a href="#">Suivez-nous</a>
+  </div>
+</footer>
 
   <script src="reservation.js"> </script>
 </body>
