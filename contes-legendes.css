@@ -215,19 +215,27 @@ nav {
 }
 
 
-.footer {
+footer {
     background-color: black;
-    margin-top: 50px;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    text-decoration: none;
-    color: red;
-    padding: 15px;
-    font-weight: bold;
-    justify-content: space-around;
-    align-items: flex-end;
-    
+    margin-top: auto; /* Pousse le footer vers le bas */
 }
 
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
 .a:link{
     text-decoration: none;
     color: red;

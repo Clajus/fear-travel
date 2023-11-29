@@ -140,6 +140,8 @@ nav {
     margin-top: 20px;
     margin-left: 20px;
     text-decoration: underline;
+    border-color: #FF3230;
+    border-top-right-radius: solid;
 }
 
 #part2 {
@@ -162,15 +164,24 @@ nav {
     background-image: url(fear-travel/photo-accueil/background.jpg);
 }
 
-.footer {
+footer {
     background-color: black;
-    margin-top: 50px;
+    color: #fff;
+    padding: 20px;
     text-align: center;
+    margin-top: auto; /* Pousse le footer vers le bas */
+}
+
+
+.footer-links a {
+    color: #fff;
     text-decoration: none;
-    color: red;
-    padding: 15px;
+    margin: 0 15px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
     font-weight: bold;
-    justify-content: space-around;
-    align-items: flex-end;
-    
 }
