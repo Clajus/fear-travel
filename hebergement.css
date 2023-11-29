@@ -6,20 +6,16 @@ nav {
     align-items: center;
     background: linear-gradient(0deg, #000000, #000000), #FFFFFF;
 }
-
 .navigation {
     flex-direction: column;
     flex-grow: 1;
     justify-content: space-between;
 }
-
 #logo {
     width: 56%;
-}
+ }
 
 .account {
-    /* position: relative;
-    display: inline-block; */
     padding: 15px 70px;
     border: 2px solid #FF3230;
     color: #FF3230;
@@ -30,14 +26,14 @@ nav {
     background-repeat: no-repeat;
     background-size: 0% 100%;
     transition: background-size .5s, color .5s;
-
+   
     margin-right: 4%;
     border-radius: 10%;
     padding-left: 1.75%;
     padding-right: 1.75%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
-}
+  }
 
 
 .account a {
@@ -46,21 +42,18 @@ nav {
     font-style: normal;
     color: #fff;
     text-decoration: none;
-
+    
 }
-
-.account:hover {
+.account:hover{
     background-size: 100% 100%;
     color: #fff;
 }
-
 .navigation-text {
     /* border: 1px solid #000000; */
     margin-left: 2%;
     margin-right: 5%;
     font-size: 30px;
 }
-
 .navigation-text a {
     color: #EAE2E2;
     font-family: 'Inter';
@@ -69,9 +62,8 @@ nav {
     font-size: 30px;
     text-decoration: none;
 }
-
 .navigation-text a:hover {
-    font-size: 35px;
+    /* font-size: 32px; */
     mix-blend-mode: hard-light;
     border: 1px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -84,17 +76,23 @@ nav {
     margin-left: 20%;
     justify-content: end;
 }
-
 .navigation-middle {
     flex-wrap: 1;
     margin: 6%;
 }
-
 .navigation-bottom {
     flex-wrap: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.navigation-bottom div {
+    transition: 1s;
+}
+
+.navigation-bottom div:hover {
+    transform: scale(1.2);
 }
 
 .nav-container {
@@ -106,8 +104,7 @@ nav {
 }
 
 #cabane {
-    background-image: url(photosHBGT/CabaneHantee.jpg);
-    
+    background-image: url(photosHBGT/CabaneHantee.jpg); 
 }
 
 #camping {
@@ -143,12 +140,13 @@ nav {
     height: 200px;
     border-radius: 50%;
     background-size: cover;
-    margin: 0 10px;   
+    margin: 0 10px;        
 }
 
 #carousel-container {
     display: flex;
     justify-content: center;
+    font-family: 'inter';
 }
 
 #carouselExampleCaptions {
@@ -210,7 +208,6 @@ ul {
 }
 
 li {
-
     height: 250px;
     display: inline-block;
     text-align: center;
@@ -305,4 +302,5 @@ li {
     margin: none;
     text-align: center;
     color: red;
+    font-family: 'inter';
 }
