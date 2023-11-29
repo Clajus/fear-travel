@@ -120,6 +120,8 @@ nav {
     text-align: center;
 }
 
+
+
 .card {
     border-radius: 8%;
     margin-bottom: 20px;
@@ -160,7 +162,7 @@ nav {
     background-image: url(fear-travel/photo-accueil/background.jpg);
 } */
 
-.banner-hote {
+.container-fluid {
     background-image: url(fear-travel/photo-accueil/background.jpg);
 }
 
@@ -184,4 +186,14 @@ footer {
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+}
+
+
+
+
+#part1{
+    border: 1px solid red;
+}
+#part2{
+    border: 1px solid green;
 }
