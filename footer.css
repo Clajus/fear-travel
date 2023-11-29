@@ -3,9 +3,8 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
-    margin-top: auto; /* Pousse le footer vers le bas */
+    margin-top: auto; /* Pousse le footer vers le bas */ 
 }
-
 
 .footer-links a {
     color: #fff;
