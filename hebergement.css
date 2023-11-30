@@ -95,12 +95,20 @@ nav {
     transform: scale(1.2);
 }
 
+#hautdepage{
+    margin-bottom: auto;
+}
+
 .nav-container {
     display: flex;
     justify-items: center;
     font-family: 'inter';
     font-style: normal;
+}
 
+.nav-container #menuhbgt a  {
+    text-decoration: none;
+    color: white;
 }
 
 #cabane {
@@ -140,7 +148,7 @@ nav {
     height: 200px;
     border-radius: 50%;
     background-size: cover;
-    margin: 0 10px;        
+    margin: 0 10px;      
 }
 
 #carousel-container {
@@ -196,6 +204,7 @@ nav {
 #menuhbgt {
     position: relative;
     width: 100vw;
+    
 }
 
 ul {
@@ -205,6 +214,7 @@ ul {
     display: block;
     list-style: none;
     padding: 0;
+   
 }
 
 li {
