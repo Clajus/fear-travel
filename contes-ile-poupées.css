@@ -14,10 +14,8 @@ nav {
 #logo {
     width: 56%;
  }
- 
+
 .account {
-    /* position: relative;
-    display: inline-block; */
     padding: 15px 70px;
     border: 2px solid #FF3230;
     color: #FF3230;
@@ -36,15 +34,15 @@ nav {
     padding-top: 0.5%;
     padding-bottom: 0.5%;
   }
- 
- 
+
+
 .account a {
     font-size: 30px;
     font-family: 'Inter';
     font-style: normal;
     color: #fff;
     text-decoration: none;
-   
+    
 }
 .account:hover{
     background-size: 100% 100%;
@@ -65,12 +63,12 @@ nav {
     text-decoration: none;
 }
 .navigation-text a:hover {
-    font-size: 35px;
+    /* font-size: 32px; */
     mix-blend-mode: hard-light;
     border: 1px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
- 
+
 .navigation-top {
     flex-wrap: 1;
     display: flex;
@@ -87,7 +85,15 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    }
+}
+
+.navigation-bottom div {
+    transition: 1s;
+}
+
+.navigation-bottom div:hover {
+    transform: scale(1.2);
+}
 
 .banner {
         background-image: url(Photos-Contes/Forêt\ brouillard\ 2.jpg);
@@ -109,7 +115,9 @@ nav {
     flex-direction: start;
     justify-content: center;
     font-style: oblique;
-    border-radius: 5px;
+    border-radius: none;
+    width: 96%;
+    height: 39%;
       }      
       
 
