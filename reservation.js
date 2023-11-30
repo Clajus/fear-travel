@@ -111,6 +111,9 @@ attractionMessage.innerHTML = destinationChoisie.attraction;
 const destinationInput = document.getElementById("destination");
 destinationInput.value = destination;
 
+const audio = document.getElementById("source");
+audio.setAttribute("src","The-Exorcist-Soundtrack.mp3")
+
 //// Calculateur
 // TO DO get price from tableau
 const urlParams = new URLSearchParams(window.location.search);
