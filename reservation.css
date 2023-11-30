@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Trickster;
+    src: url(./Fonts/Chilling\ Trickster\ Free.ttf);
+  }
+
 nav {
     flex-wrap: wrap;
     display: flex;
@@ -152,8 +157,11 @@ input[type="submit"]:hover {
     margin-top: 100px;
     color: red;
     margin-left: 10%;
+    font-family: Trickster;
+    font-size: 60px;
+      }
     
-}
+
 
 .image-container {
     display: flex;

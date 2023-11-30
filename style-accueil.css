@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Trickster;
+    src: url(./Fonts/Chilling\ Trickster\ Free.ttf);
+  }
+
 nav {
     flex-wrap: wrap;
     display: flex;
@@ -99,7 +104,8 @@ nav {
     background-size: cover;
     background-position: center;
     padding: 150px 0;
-    text-align: center; 
+    text-align: center;
+    font-family: Trickster; 
   }
   
   .banner p {
