@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Trickster;
+    src: url(./Fonts/Chilling\ Trickster\ Free.ttf);
+  }
+
 nav {
     flex-wrap: wrap;
     display: flex;
@@ -179,7 +184,8 @@ footer {
     color: red;
     margin-left: 10%;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Trickster;
+    font-size: 60px;
 }
 
 #localisation {
@@ -195,8 +201,8 @@ footer {
     color:#FF3230;
     text-align: center;
     padding: center ;
-    
     margin-right: 70%;
+    
 }
 
 /* body {
@@ -241,4 +247,15 @@ margin-right: 10%;
 
 .card {
     margin-right: 9%;
+}
+
+/* h1{
+    font-family: Trickster;
+} */
+
+h2{
+   
+    font-family: Trickster;
+    font-size: 40px;
+    
 }
