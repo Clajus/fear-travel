@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Trickster;
+    src: url(./Fonts/Chilling\ Trickster\ Free.ttf);
+  }
+
 nav {
     flex-wrap: wrap;
     display: flex;
@@ -188,6 +193,9 @@ body {
 h1 {
     text-align: center;
     color: #D8000C;
+    font-family: Trickster;
+    font-size: 60px;
+
 }
 
 .form-style {
