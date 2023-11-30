@@ -144,9 +144,10 @@ nav {
 footer {
     background-color: black;
     color: #fff;
-    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
-    margin-top: auto; /* Pousse le footer vers le bas */
+    /* margin-top: auto; Pousse le footer vers le bas */
 }
 
 
@@ -161,6 +162,11 @@ footer {
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+}
+
+body {
+    background-color: #EAE2E2;
+    background-size: cover;
 }
 
 /* .reservation{
