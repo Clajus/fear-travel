@@ -37,7 +37,8 @@ submitBtn.addEventListener("click", (e) => {
                 inputPassword.value
             )
         )
-        history.back();
+        // history.back();
+        location.assign('connexion.html')
     }else{
         alert("Le mot de passe et sa confirmation ne sont pas identique !")
     }
