@@ -195,6 +195,8 @@ footer {
     color:#FF3230;
     text-align: center;
     padding: center ;
+    
+    margin-right: 70%;
 }
 
 /* body {
@@ -209,18 +211,27 @@ body {
     background-color:#EAE2E2;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 #comment2 {
     text-align: center;
     text-decoration: underline;
     padding-top: 100px;
+    margin-left: 25%;
+    
+   
+    
 }
 
 .col {
 border: 2px solid grey;
 border-style: inset;
 border-radius: 30px;
+border: 1px solid #ccc;
+border-radius: 8px;
+box-shadow: 0 0 30px red;
+margin-right: 10%;
 }
 
 #check{
@@ -228,4 +239,6 @@ border-radius: 30px;
 
 }
 
-
+.card {
+    margin-right: 9%;
+}
