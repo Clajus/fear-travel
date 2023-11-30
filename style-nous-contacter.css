@@ -11,6 +11,7 @@ nav {
     flex-grow: 1;
     justify-content: space-between;
 }
+
 #logo {
     width: 56%;
  }
@@ -208,6 +209,7 @@ h1 {
     padding: 0px;
     display: block;
     font-weight: bold;
+    color: #EAE2E2;
 }
 
 .form-style .required {
@@ -254,6 +256,8 @@ textarea {
     width: 100%;
 }
 
+
+
 .form-style input[type=text]:focus,
 .form-style input[type=email]:focus,
 .form-style textarea:focus {
@@ -266,15 +270,19 @@ textarea {
 .error {
     color: #D8000C;
     background-color: #FFBABA;
+
+}
+.formulaire {
+    padding-top: 50px;
 }
 
-footer {
+/* footer {
     background-color: black;
     color: #fff;
     padding: 20px;
     text-align: center;
     margin-top: auto; /* Pousse le footer vers le bas */ 
-}
+} */
 
 .footer-links a {
     color: #fff;
