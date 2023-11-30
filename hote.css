@@ -96,7 +96,7 @@ nav {
 }
 
 .card {
-    border-radius: 8%;
+    border-radius: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
 }
@@ -197,9 +197,18 @@ footer {
     padding: center ;
 }
 
+/* body {
+    background-image:url("FondEcranBrouillard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} */
+
 body {
     flex: 100vh;
     background-color:#EAE2E2;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #comment2 {
@@ -212,6 +221,11 @@ body {
 border: 2px solid grey;
 border-style: inset;
 border-radius: 30px;
+}
 
+#check{
+    padding-left: 40px;
 
 }
+
+
