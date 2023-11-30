@@ -107,9 +107,9 @@ descriptionLogement.innerHTML = destinationChoisie.descriptionLogement;
 attractionTitre.textContent= "Ce que propose le logement";
 attractionMessage.innerHTML = destinationChoisie.attraction;
 
+
 const destinationInput = document.getElementById("destination");
 destinationInput.value = destination;
-
 
 //// Calculateur
 // TO DO get price from tableau

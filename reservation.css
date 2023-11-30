@@ -230,3 +230,32 @@ input[type="submit"]:hover {
     margin-bottom: 5%;
 }
 
+.note {
+margin-top: 5%
+
+}
+
+/* 
+.commentaires {
+margin-top: 5%;
+margin-bottom: 3%;
+justify-self: auto;
+display: flex;
+align-items: top;
+}
+
+.commentaire1 {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 30px red
+    
+}
+
+.commentaire2 {
+    margin-left: 5%;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 30px red
+} */

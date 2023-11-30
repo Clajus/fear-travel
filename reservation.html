@@ -64,64 +64,96 @@
     <img class="image-zoom" src="" alt="cabane 2" width="450" height="300" id="image2">
     <img class="image-zoom" src="" alt="ile des poupées 2" width="450" height="300" id="image3">
   </div>
- <div class="descriptionReservation">
-  <div style="flex-direction: row;">
-    <div class="blabla">
-      <div class="nom-logement">
-        <h4 id="nom-logement"></h4>
-        <img id="image-hote" src="" alt="annabelle" width="150" height="150">
+  <div class="descriptionReservation">
+    <div style="flex-direction: row;">
+      <div class="blabla">
+        <div class="nom-logement">
+          <h4 id="nom-logement"></h4>
+          <img id="image-hote" src="" alt="annabelle" width="150" height="150">
+        </div>
+        <div class="Description">
+          <p> </p>
+        </div>
       </div>
-      <div class="Description">
+      <div class="Attractions">
+        <h4> </h4>
         <p> </p>
       </div>
-    </div>
-    <div class="Attractions">
-      <h4> </h4>
-      <p> </p>
-    </div>
-  </div>
 
-  <div class="reservation-form">
-      <h2>Réservation</h2>
+      <div class="note">
+        <h5>Note et avis</h5>
+        <p>4.5 Note globale</p>
+        <img src="Photos Hote/Note.png" alt="">
+      </div>
+
       
+
+
+      <!-- <div class="noteEtAvis">
+        <div class="note">
+          <h5>Note et avis</h5>
+          <p>4.5 Note globale</p>
+          <img src="Photos Hote/Note.png" alt="">
+        </div>
+        <div class="commentaires">
+        <div class="commentaire1">
+          <p> <img src="Photos Hote/John Doe (1).png" alt="" widht="50" height="50"><br><br>
+            “...Magnifique endroit, d’une beauté terrifiante.” <br>John Doe</p>
+        </div>
+        <div class="commentaire2">
+          <p> <img src="Photos Hote/La famille Eve.png" alt="" width="50" height="50"><br><br>
+            “...Nous avons passé un week end merveilleux sur cette petite île. Les enfants ont adoré. Depuis ce
+            séjour,
+            notre petite Lily refuse catégoriquement de jouer à la poupée." La famille Eve</p>
+        </div>
+        </div>
+        
+        <h5>Afficher les 20 commentaires</h5>
+      </div> -->
+    </div>
+
+    <div class="reservation-form">
+      <h2>Réservation</h2>
+
       <form>
 
         <input type="hidden" id="destination" name="destination" min="1" required>
 
-         <label for="date-depart">Date de départ:</label>
-   
-         <label for="date-arrivee">Date d'arrivée:</label>
-   
-         <input type="date" id="date-arrivee" name="date-arrivee" required>
-   
-         <label for="date-depart">Date de départ:</label>
-         
-         <input type="date" id="date-depart" name="date-depart" required>
+        <label for="date-depart">Date de départ:</label>
 
-         <label for="nb-voyageurs">Nombre de voyageurs:</label>
+        <label for="date-arrivee">Date d'arrivée:</label>
 
-         <input type="number" id="nb-voyageurs" name="nb-voyageurs" min="1" required>
+        <input type="date" id="date-arrivee" name="date-arrivee" required>
 
-         <input type="submit" value="Réserver">
+        <label for="date-depart">Date de départ:</label>
 
-         <input type="hidden">  
-        </form> 
-        <p type="hidden" id="resultat"></p>
+        <input type="date" id="date-depart" name="date-depart" required>
+
+        <label for="nb-voyageurs">Nombre de voyageurs:</label>
+
+        <input type="number" id="nb-voyageurs" name="nb-voyageurs" min="1" required>
+
+        <input type="submit" value="Réserver">
+
+        <input type="hidden">
+      </form>
+      <p type="hidden" id="resultat"></p>
+    </div>
   </div>
- </div> 
 
- <footer>
-  <div class="footer-links">
+  <footer>
+    <div class="footer-links">
       <a href="#">À Propos</a>
       <a href="#">Mentions Légales</a>
       <a href="#">Politiques de Confidentialité</a>
       <a href="footer-nous-contacter.html">Nous Contacter</a>
-  </div>
-  <div class="social-links">
+    </div>
+    <div class="social-links">
       <a href="#">Suivez-nous</a>
-  </div>
-</footer>
+    </div>
+  </footer>
 
   <script src="reservation.js"> </script>
 </body>
+
 </html>
