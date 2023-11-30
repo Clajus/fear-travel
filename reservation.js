@@ -9,7 +9,8 @@ const listeDestinations = [
         imageHote : "Photos-Contes/Comte Dracula.png",
         nombreDePersonne: "2 à 4 personnes",
         descriptionLogement : "200€ la nuit <br> Chambre avec lit double ou cercueils au choix <br> Formule ALL EXCLUSIVE possible <br> Calme et Authenticité <br> Draps et couette à disposition",
-        attraction : "Visite guidée du château <br> Chasse à cour"
+        attraction : "Visite guidée du château <br> Chasse à cour",
+        price : 200
     },
     {
         id : "loch",
@@ -20,7 +21,8 @@ const listeDestinations = [
         nomLogement : "Une chambre dans un voilier 4 personnes - Chez Jason - Inverness, Ecosse",
         imageHote : "Photo-LochNess/jason.jpg",
         descriptionLogement : "150€ la nuit <br> Une chambre avec un lit double + un lit simple <br> Repas cuisinés par notre hôte en supplément<br>",
-        attraction : "Possibilité d'assister au repas du monstre <br> Paddle, planche à voile, kitesurf"
+        attraction : "Possibilité d'assister au repas du monstre <br> Paddle, planche à voile, kitesurf",
+        price: 150
     },
     {
         id : "poupées",
@@ -31,7 +33,8 @@ const listeDestinations = [
         nomLogement : "Cabane au bord du lac - Chez Annabelle - Mexico, Méxique ",
         imageHote : "photo-ile-des-poupées/anabelle.png",
         descriptionLogement : "110€ la nuit <br> Deux lits superposés <br> Détente, Calme, Nature, Frissons <br> Terrasse suspendue <br> Poêle à bois avec Bois 100%",
-        attraction : "Paintball <br> Pédalo, Paddle"
+        attraction : "Paintball <br> Pédalo, Paddle",
+        price: 110
     },
     {
         id : "suicides",
@@ -42,7 +45,8 @@ const listeDestinations = [
         nomLogement : "Cabane dans les arbres - Chez Sylvebarbe - Narusawa, Japon",
         imageHote : "photo-foret-des-suicides/silvebarbe.jpg",
         descriptionLogement : "160€ la nuit <br> Un lit double + un lit superposé <br> Détente, Calme, Nature, Dé(com)pression",
-        attraction : "Accrobranche <br> Tire à l'arc"
+        attraction : "Accrobranche <br> Tire à l'arc",
+        price: 160
     },
     {
         id : "pénitencier",
@@ -52,8 +56,9 @@ const listeDestinations = [
         img3 : "photo-pénitencier/cellule.jpg",
         nomLogement : "Cellule au coeur de la prison - Chez Hannibal Lecter - Philadelphie, Etats-Unis",
         imageHote : "photo-pénitencier/Hannibal.webp", 
-        descriptionLogement : "70€ la nuit<br>Chambres aménagées avec un lit simple par cellule <br> Immersion totale <br> Cantine et refectoire aménagé pour le repas",
-        attraction : "Escape game"
+        descriptionLogement : "70€ la nuit<br>Chambres aménagées avec un lit simple par cellule <br> Immersion totale <br> Cantine et réfectoire aménagé pour le repas",
+        attraction : "Escape game <br>Dégustation de foie aux fèves avec un verre de chianti",
+        price: 70
     },
     {
         id : "club",
@@ -63,8 +68,9 @@ const listeDestinations = [
         img3 : "photo-hell-fire/piscine.jpg",
         nomLogement : "Camping en tente - chez Billy - Dublin, Irlande",
         imageHote : "photo-hell-fire/billy.png",
-        descriptionLogement : "40€ la nuit<br>Tentes 2 à 4 personnes<br>Camping aménagé avec piscine surveillée<br>Aventure, Nature, Communauté",
-        attraction : "Atelier culinaire <br> Karaoké <br> Piscine"
+        descriptionLogement : "40€ la nuit<br>Tentes 2 à 4 personnes<br>Camping aménagé avec piscine surveillée<br>Aventure, Nature, Communauté très conviviale",
+        attraction : "Atelier culinaire <br> Karaoké <br> Piscine",
+        price: 40
     }
 
 ]
@@ -100,4 +106,36 @@ nomLogement.textContent = destinationChoisie.nomLogement;
 descriptionLogement.innerHTML = destinationChoisie.descriptionLogement;
 attractionTitre.textContent= "Ce que propose le logement";
 attractionMessage.innerHTML = destinationChoisie.attraction;
+
+const destinationInput = document.getElementById("destination");
+destinationInput.value = destination;
+
+
+//// Calculateur
+// TO DO get price from tableau
+const urlParams = new URLSearchParams(window.location.search);
+if(urlParams.get('date-arrivee') != null ) {
+    const arrivee = new Date(urlParams.get('date-arrivee'));
+    const depart = new Date(urlParams.get('date-depart'));
+    const nbVoyageurs = parseInt(urlParams.get('nb-voyageurs'));
+    const unitPrice = destinationChoisie.price;
+    // Calcul nombre de nuit
+    const fraisDeService = 0.02;
+    var nbNuit =  datediff(arrivee,depart);
+    var price = nbNuit * nbVoyageurs * unitPrice * (1 + fraisDeService);
+    /**
+     * Take the difference between the dates and divide by milliseconds per day.
+     * Round to nearest whole number to deal with DST.
+     */
+    
+    const resultat = document.getElementById("resultat");
+    resultat.innerHTML= price + "€";
+    resultat.removeAttribute("type")
+
+}
+
+
+function datediff(first, second) {        
+    return Math.round((second - first) / (1000 * 60 * 60 * 24));
+}
 
