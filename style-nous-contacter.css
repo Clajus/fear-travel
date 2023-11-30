@@ -282,7 +282,7 @@ textarea {
     padding: 20px;
     text-align: center;
     margin-top: auto; /* Pousse le footer vers le bas */ 
-} */
+/* } */ */
 
 .footer-links a {
     color: #fff;
@@ -296,3 +296,4 @@ textarea {
     margin: 0 15px;
     font-weight: bold;
 }
+
