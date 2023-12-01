@@ -22,8 +22,11 @@
 
 <body>
   <audio autoplay preload="auto" loop>
-    <source id="source" src="" type="audio/mpeg">
+    <source src="Musiques/orage.mp3" type="audio/mpeg">
   </audio>
+  <div type="hidden">
+    <audio id="audio" src=""></audio>
+  </div>
   <header>
     <nav>
       <div class="logo">
@@ -72,9 +75,9 @@
       <div class="blabla">
         <div class="nom-logement">
           <h4 id="nom-logement"></h4>
-          <a href ="hote.html">
+          <a id="hote">
             <img id="image-hote" src="" alt="" width="150" height="150">
-        </a>
+          </a>
           <!-- <img id="image-hote" src="" alt="annabelle" width="150" height="150"> -->
         </div>
         <div class="Description">
@@ -87,7 +90,7 @@
       </div>
 
       <div class="note">
-        <h5>Note et avis</h5>
+        <h4>Note et avis</h4>
         <p>4.5 Note globale</p>
         <img src="Photos Hote/Note.png" alt="">
       </div>
@@ -113,7 +116,6 @@
             notre petite Lily refuse catégoriquement de jouer à la poupée." La famille Eve</p>
         </div>
         </div>
-        
         <h5>Afficher les 20 commentaires</h5>
       </div> -->
     </div>
