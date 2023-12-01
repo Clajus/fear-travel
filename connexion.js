@@ -23,14 +23,23 @@ let profil;
 connexionBtn.addEventListener("click",(e)=>{
     e.preventDefault();
     localStorage.setItem("connexion", "non connecté")
+    console.log(dataClient);
+    
     for (const client of dataClient) {
         if(inputEmail.value === client.email && inputPassword.value === client.password){
             profil = client;
-            alert("vous etes connecté")
-            localStorage.setItem("connexion", "connecté")
-            history.back();
+            break;
         }
     }
+    if(profil){
+        alert("vous etes connecté")
+        localStorage.setItem("connexion", "connecté")
+        location.assign('page-accueil.html')
+    }else{
+        alert("Mauvais identifiant ou mdp")
+        localStorage.setItem("connexion", "non connecté")
+    }
+    
 })
 
 

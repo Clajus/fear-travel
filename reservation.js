@@ -7,9 +7,8 @@ const listeDestinations = [
         img3 : "photo-dracula/lit.jpg",
         nomLogement : "Chambre dans le château -  Chez Vlad - Bran, Roumanie",
         imageHote : "Photos-Contes/Comte Dracula.png",
-        nombreDePersonne: "2 à 4 personnes",
-        descriptionLogement : "200€ la nuit par personne <br> Chambre avec lit double ou cercueils au choix <br> Formule ALL EXCLUSIVE possible <br> Calme et Authenticité <br> Draps et couette à disposition",
-        attraction : "Visite guidée du château <br> Chasse à cour",
+        descriptionLogement : "200€ la nuit par personne <br><br> Chambre avec lit double ou cercueils au choix <br> Formule ALL EXCLUSIVE possible <br> Calme et Authenticité <br> Draps et couette à disposition",
+        attraction : "Visite guidée du château <br> Chasse à courre",
         price : 200
     },
     {
@@ -20,7 +19,7 @@ const listeDestinations = [
         img3 : "Photo-LochNess/voilier interieur.jpg",
         nomLogement : "Une chambre dans un voilier 4 personnes - Chez Jason - Inverness, Ecosse",
         imageHote : "Photo-LochNess/jason.jpg",
-        descriptionLogement : "150€ la nuit par personne <br> Une chambre avec un lit double + un lit simple <br> Repas cuisinés par notre hôte en supplément<br>",
+        descriptionLogement : "150€ la nuit par personne <br><br> Une chambre avec un lit double + un lit simple <br> Repas cuisinés par notre hôte en supplément<br>",
         attraction : "Possibilité d'assister au repas du monstre <br> Paddle, planche à voile, kitesurf",
         price: 150
     },
@@ -32,7 +31,7 @@ const listeDestinations = [
         img3 : "photo-ile-des-poupées/iledespoupées.jpg",
         nomLogement : "Cabane au bord du lac - Chez Annabelle - Mexico, Méxique ",
         imageHote : "photo-ile-des-poupées/anabelle.png",
-        descriptionLogement : "110€ la nuit par personne <br> Deux lits superposés <br> Détente, Calme, Nature, Frissons <br> Terrasse suspendue <br> Poêle à bois avec Bois 100%",
+        descriptionLogement : "110€ la nuit par personne <br><br> Deux lits superposés <br> Détente, Calme, Nature, Frissons <br> Terrasse suspendue <br> Poêle à bois avec Bois 100%",
         attraction : "Paintball <br> Pédalo, Paddle",
         price: 110
     },
@@ -44,7 +43,7 @@ const listeDestinations = [
         img3 : "photo-foret-des-suicides/interieur-ile-des-poupées.jpg",
         nomLogement : "Cabane dans les arbres - Chez Sylvebarbe - Narusawa, Japon",
         imageHote : "photo-foret-des-suicides/silvebarbe.jpg",
-        descriptionLogement : "160€ la nuit par personne <br> Un lit double + un lit superposé <br> Détente, Calme, Nature, Dé(com)pression",
+        descriptionLogement : "160€ la nuit par personne <br><br> Un lit double + un lit superposé <br> Détente, Calme, Nature, Dé(com)pression",
         attraction : "Accrobranche <br> Tire à l'arc",
         price: 160
     },
@@ -56,7 +55,7 @@ const listeDestinations = [
         img3 : "photo-pénitencier/cellule.jpg",
         nomLogement : "Cellule au coeur de la prison - Chez Hannibal Lecter - Philadelphie, Etats-Unis",
         imageHote : "photo-pénitencier/Hannibal.webp", 
-        descriptionLogement : "70€ la nuit par personne<br>Chambres aménagées avec un lit simple par cellule <br> Immersion totale <br> Cantine et réfectoire aménagé pour le repas",
+        descriptionLogement : "70€ la nuit par personne<br><br>Chambres aménagées avec un lit simple par cellule <br> Immersion totale <br> Cantine et réfectoire aménagé pour le repas",
         attraction : "Escape game <br>Dégustation de foie aux fèves avec un verre de chianti",
         price: 70
     },
@@ -110,9 +109,18 @@ attractionMessage.innerHTML = destinationChoisie.attraction;
 
 const destinationInput = document.getElementById("destination");
 destinationInput.value = destination;
+if(destination == "poupées" ) {
+    const hote = document.getElementById("hote");
+    hote.href="hote.html";
+}
 
-const audio = document.getElementById("source");
-audio.setAttribute("src","The-Exorcist-Soundtrack.mp3")
+
+//var snd = new Audio("http://127.0.0.1:8080/It's a Small World side1.mp3")//wav is also supported
+//snd.play()
+//plays the sound
+//const audio = document.getElementById("source");
+//audio.innerHTML='<audio autoplay preload="auto" loop><source  src="Musiques/The-Exorcist-Soundtrack.mp33" type="audio/mpeg"></audio>'
+///audio.setAttribute("src","Musiques/The-Exorcist-Soundtrack.mp33")
 
 //// Calculateur
 // TO DO get price from tableau
